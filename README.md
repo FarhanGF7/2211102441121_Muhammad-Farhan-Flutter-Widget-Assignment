@@ -1,9 +1,9 @@
 # flutter_widget_assignment
 
-NIM: 2211102441121
-Nama: Muhammad Farhan
-Matkul: Pemrograman Perangkat Bergerak
-Kelas: B
+NIM: 2211102441121.
+Nama: Muhammad Farhan.
+Matkul: Pemrograman Perangkat Bergerak.
+Kelas: B.
 
 ## Getting Started
 
