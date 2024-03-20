@@ -1,6 +1,9 @@
 # flutter_widget_assignment
 
-A new Flutter project.
+NIM: 2211102441121
+Nama: Muhammad Farhan
+Matkul: Pemrograman Perangkat Bergerak
+Kelas: B
 
 ## Getting Started
 
