@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Tugas Widget',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -77,6 +77,38 @@ class MyHomePage extends StatelessWidget {
                       ),
                     ),
                     child: const Text('Tap me!'),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Positioned(
+            bottom: 10,
+            right: 10,
+            child: Container(
+              padding: const EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                border: Border.all(color: Colors.black),
+                borderRadius: BorderRadius.circular(10),
+              ),
+              child: const Column(
+                children: [
+                  Text(
+                    'Weather',
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.blue,
+                    ),
+                  ),
+                  SizedBox(height: 5),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text('25°C'),
+                      Icon(Icons.cloud, size: 20, color: Colors.grey),
+                    ],
                   ),
                 ],
               ),
